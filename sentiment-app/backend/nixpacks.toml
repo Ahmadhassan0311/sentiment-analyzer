@@ -1,2 +1,5 @@
 [phases.setup]
 nixPkgs = ["libgomp"]
+
+[phases.install]
+cmds = ["pip install --only-binary=:all: scikit-learn", "pip install fastapi uvicorn nltk python-dotenv"]

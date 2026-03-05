@@ -1,5 +1,5 @@
-fastapi==0.109.0
-uvicorn==0.27.0
-scikit-learn==1.4.0
-nltk==3.8.1
-python-dotenv==1.0.0
+fastapi
+uvicorn
+nltk
+python-dotenv
+scikit-learn --only-binary=:all:
